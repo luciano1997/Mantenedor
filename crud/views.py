@@ -5,5 +5,5 @@ from django.shortcuts import render
 def alumnos_list(request):
     return render(request,'crud/alumno_list.html', {})
 
-def carreras_list(request):
-    return render(request,'crud/carrera_list.html', {})
+def saludo_bienvenida(request):
+   return render(request,'crud/saludo.html', {})
